@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Tekton;
+    src: url('../fonts/Tekton.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Tekton.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Tekton.otf') ; /* Safari, Android, iOS */ /* Legacy iOS */
+}
+
+body {
+  background: url('../img/waves.png') no-repeat center center fixed;
+  background-color: #92278f;
+  font-family: Tekton, 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Font sizes for flowtype */
+
+body {
+   font-size: 18px;
+   line-height: 26px;
+}
+h1,h2,h3,h4,h5,h6,p {
+   font-family: inherit;
+   font-size: inherit;
+}
+h1 {
+   font-size: 4em;
+   line-height: 1em;
+   text-align: center;
+}
+h2 {
+   font-size: 3em;
+   line-height: 1em;
+}
